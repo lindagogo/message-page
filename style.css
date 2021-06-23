@@ -64,6 +64,7 @@ p{
 }
 #navbarSupportedContent {
 	justify-content:  flex-end;
+	font-family: 'Montserrat', sans-serif;
 }
 .form-check-input
 {
