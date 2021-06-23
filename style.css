@@ -1,7 +1,4 @@
 
-.collapse{
-	flex: none;
-}
 
     @font-face {
     font-family: 'Bariol Bold';
@@ -38,49 +35,6 @@ h5{
 .container-fluid{
 	display: inline-flex;
 }
-.card-sec{
-	display: flex;
-	flex-direction: row;
-}
-.card-wrapper{
-	display: inline-flex;
-	flex-direction: row;
-	border: 1px solid #000;
-	border-radius: 20px;
-}
-
-.card-text{
-	padding-left: 10px;
-	padding-right: 10px;
-	display: inline-flex;
-	flex-direction: column;
-	font-family: 'Montserrat';
-	font-size: 18px;
-}
-.card-top{
- display: flex;
- justify-content: space-between;
-}
-
-.card-mid{
- display: inline-block;
- position: relative;
-
-}
-
-.card-bot{
-  display: flex;
-  justify-content: space-between;
-}
-.grid-template-columns{
-	align-text: right;
-}
-.girl{
-	vertical-align: bottom;
-}
-.pie-c{
-	justify-content: right;
-}
 h6, .cb-label-text {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: semibold;
@@ -96,7 +50,10 @@ p{
 	font-size: 24px;
 	font-weight: 600;
 }
+.chat-p{
+	width: 100%;
 
+}
 .flex-parent {
 	display:  flex;
 	margin: 0% 8%;
@@ -107,106 +64,6 @@ p{
 }
 #navbarSupportedContent {
 	justify-content:  flex-end;
-}
-.header-title{
-	display: inline-block;
-}
-.container-header-content {
-	text-align:  center;
-}
-.kismet-title{
-	display: inline-block;
-	color:#6B007C; 
-	text-align: left;
-	padding-top: 50px;
-}
-
-.kismet-title1{
-	text-align: center;
-	color:#6B007C; 
-	padding-top: 50px;
-	padding-bottom: 10px;
-	font-family:'Bariol Bold';
-	font-size: 65px;
-
-	 /* i need to add the bariol font here*/
-
-	
-}
-.title-val-prop{
-	text-align: center;
-	margin: 0 5%;
-	padding-bottom: 50px;
-	font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-size: 30px;
-}
-.why-kismet-title{
-	text-align: center;
-	color: #fff;
-	padding-bottom: 10px;
-	padding-top: 50px;
-}
-
-
-.let-title{
-	display: inline-block;
-
-}
-.why-kismet{
-	display: inline-block;
-	background-color: #6B007C;
-	width: 100%;
-
-	
-}
-.why-kismet-words{
-
-	color: #ffff;
-	font-weight:500;
-	text-align: center;
-	padding-bottom: 50px;
-	margin: 0 15%;
-	font-family: 'Montserrat', sans-serif;
-}
-.why-title{
-	display: inline-block;
-	
-}
-.val-prop1{
-	display: inline-block;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-.val-prop-title{
-	color: #6B007C;
-	padding-bottom: 15px;
-	padding-top:50px;
-	display: flex;
-	justify-content: left;
-
-}
-.val-prop-link{
-	color: #6B007C;
-	padding-bottom: 15px;
-	padding-top:50px;
-	display: flex;
-	justify-content: center;
-	font-family: 'Montserrat';
-	font-size: 30px;
-	font-weight: 600;
-
-
-
-}
-.val-prop-words{
-	margin: auto;
-
-}
-.val-prop2{
-	display: inline-block;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
 }
 .form-check-input
 {
@@ -222,23 +79,8 @@ p{
 input[type="checkbox"]{
 	
 	display: none;	
-
 }
 
-.btn {
-	border-radius: 50px;
-}
-.btn-check
-{
-	display: inline-block;
-	display: grid;
-}
-
-.cb input[type="radio"] {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-}
 
 .cb label {
 	cursor:  pointer;
