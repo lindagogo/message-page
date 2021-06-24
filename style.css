@@ -55,6 +55,18 @@ p{
 
 }
 
+.nav-item{
+ display:flex;
+	flex-direction: column;
+	padding-left: 30px;
+	align-items: center;
+}
+
+.navbar-nav {
+	display: flex;
+	align-items: flex-end;
+}
+
 .flex-parent {
 	display:  flex;
 	margin: 0% 8%;
